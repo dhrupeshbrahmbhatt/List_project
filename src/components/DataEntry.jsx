@@ -121,7 +121,7 @@ export const DataEntry =() => {
                         <tr className="mt-3 mb-5">
                         <th className="px-6 py-3 bg-gray-100 border-b border-gray-300 w-[150px]">Name</th>
                         <th className="px-6 py-3 bg-gray-100 border-b border-gray-300 w-[150px]">Email</th>
-                        <th className="px-6 py-3 bg-gray-100 border-b border-gray-300 w-[250px]">Address</th>
+                        <th className="px-6 py-3 bg-gray-100 border-b border-gray-300 w-[200px]">Address</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -129,7 +129,7 @@ export const DataEntry =() => {
                         <tr key={item.id}>
                             <td className="px-6 py-4 border-b border-gray-300 w-[150px]">{item.name}</td>
                             <td className="px-6 py-4 border-b border-gray-300 w-[150px]">{item.email}</td>
-                            <td className="px-6 py-4 border-b border-gray-300 w-[250px]">{item.addres}</td>
+                            <td className="px-6 py-4 border-b border-gray-300 w-[200px]">{item.addres}</td>
                         </tr>
                         ))}
                     </tbody>
